@@ -19,7 +19,7 @@
   },
   "swift_versions": "4.2",
   "requires_arc": true,
-  "source_files": "*.{h}",
+  "source_files": "*.{h,modulemap}",
   "vendored_libraries": "*.a",
   "weak_frameworks": "UserNotifications",
   "libraries": [

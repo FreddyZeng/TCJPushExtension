@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		539D866922BB8A5E00002D5A /* libbz2.1.0.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 539D866822BB8A5E00002D5A /* libbz2.1.0.5.tbd */; };
+		539D866B22BB8A7F00002D5A /* libresolv.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 539D866A22BB8A7F00002D5A /* libresolv.9.tbd */; };
+		5E49049A89DB48AABC83BE1B /* libPods-TCJPushExtension_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8058888AEE97BC063937AE /* libPods-TCJPushExtension_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,7 +25,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		A534AD6AF1A4A521D7995F7A /* Pods_TCJPushExtension_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64D8DC4243D5F07FE0814BF /* Pods_TCJPushExtension_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,11 @@
 
 /* Begin PBXFileReference section */
 		05D05B6116E683EE89EA4F17 /* Pods-TCJPushExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCJPushExtension_Example.debug.xcconfig"; path = "Target Support Files/Pods-TCJPushExtension_Example/Pods-TCJPushExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1D8058888AEE97BC063937AE /* libPods-TCJPushExtension_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TCJPushExtension_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50A7EFC3FCB3D73674FC4334 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5339689522BB8B51003F57EE /* jpush-extension-ios-1.1.2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "jpush-extension-ios-1.1.2.a"; path = "Pods/TCJPushExtension/jpush-extension-ios-1.1.2.a"; sourceTree = "<group>"; };
+		539D866822BB8A5E00002D5A /* libbz2.1.0.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.1.0.5.tbd; path = usr/lib/libbz2.1.0.5.tbd; sourceTree = SDKROOT; };
+		539D866A22BB8A7F00002D5A /* libresolv.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.9.tbd; path = usr/lib/libresolv.9.tbd; sourceTree = SDKROOT; };
 		6003F58A195388D20070C39A /* TCJPushExtension_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCJPushExtension_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,7 +67,6 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CE66ED22976BE79B5C1032E /* Pods-TCJPushExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCJPushExtension_Example.release.xcconfig"; path = "Target Support Files/Pods-TCJPushExtension_Example/Pods-TCJPushExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D567852A040945CD67517671 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D64D8DC4243D5F07FE0814BF /* Pods_TCJPushExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCJPushExtension_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F19ED2125640D069D88BD9 /* TCJPushExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TCJPushExtension.podspec; path = ../TCJPushExtension.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
@@ -70,10 +75,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				539D866B22BB8A7F00002D5A /* libresolv.9.tbd in Frameworks */,
+				539D866922BB8A5E00002D5A /* libbz2.1.0.5.tbd in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				A534AD6AF1A4A521D7995F7A /* Pods_TCJPushExtension_Example.framework in Frameworks */,
+				5E49049A89DB48AABC83BE1B /* libPods-TCJPushExtension_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,11 +121,14 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				539D866A22BB8A7F00002D5A /* libresolv.9.tbd */,
+				539D866822BB8A5E00002D5A /* libbz2.1.0.5.tbd */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
+				5339689522BB8B51003F57EE /* jpush-extension-ios-1.1.2.a */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				D64D8DC4243D5F07FE0814BF /* Pods_TCJPushExtension_Example.framework */,
+				1D8058888AEE97BC063937AE /* libPods-TCJPushExtension_Example.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -449,10 +459,35 @@
 				INFOPLIST_FILE = "TCJPushExtension/TCJPushExtension-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LIBRARY_SEARCH_PATHS = (
-					/Users/liming/Desktop/TCJPushExtension/Example/Pods/TCJPushExtension/,
 					"$(inherited)",
+					/Users/liming/Desktop/TCJPushExtension/Example/Pods/TCJPushExtension/,
 				);
 				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"TCJPushExtension\"",
+					"-l\"resolv\"",
+					"-l\"z\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-weak_framework",
+					"\"UserNotifications\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -469,10 +504,35 @@
 				INFOPLIST_FILE = "TCJPushExtension/TCJPushExtension-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LIBRARY_SEARCH_PATHS = (
-					/Users/liming/Desktop/TCJPushExtension/Example/Pods/TCJPushExtension/,
 					"$(inherited)",
+					/Users/liming/Desktop/TCJPushExtension/Example/Pods/TCJPushExtension/,
 				);
 				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"TCJPushExtension\"",
+					"-l\"resolv\"",
+					"-l\"z\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-weak_framework",
+					"\"UserNotifications\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

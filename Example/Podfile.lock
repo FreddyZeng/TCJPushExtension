@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :podspec: https://raw.githubusercontent.com/FreddyZeng/TCJPushExtension/master/TCJPushExtension.podspec
 
 SPEC CHECKSUMS:
-  TCJPushExtension: dcb098c9948a3bce0f02aafa04b1e2d0881e592c
+  TCJPushExtension: b8febdc6ebeac85cc39cb666dda7f323428b7a45
 
-PODFILE CHECKSUM: 0dbab81a4f42071e2121f61c7dc97b1445e38572
+PODFILE CHECKSUM: b9b03f6eb28baa51345946d7340b56329bcd8716
 
 COCOAPODS: 1.7.2

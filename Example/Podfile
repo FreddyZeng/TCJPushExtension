@@ -1,4 +1,4 @@
-use_frameworks!
+#use_frameworks!
 
 platform :ios, '10.0'
 
@@ -8,36 +8,36 @@ target 'TCJPushExtension_Example' do
 
 end
 
-post_install do |installer|
-  generate_module installer
-end
+#post_install do |installer|
+#  generate_module installer
+#end
 
-def generate_module (installer)
-  sandbox_root = Pathname(installer.sandbox.root)
-  sandbox = Pod::Sandbox.new(sandbox_root)
-  module_workaround_root = sandbox_root.parent + 'PodsModuleWorkaround'
-  puts module_workaround_root
-  frameworks = []
-  
-  /Users/liming/Desktop/TCJPushExtension/Example/Pods/TCJPushExtension
-  
-  installer.pod_targets.each do |umbrella|
-    umbrella.specs.each do |spec|
-      consumer = spec.consumer(umbrella.platform.name)
-      pod_dir = sandbox.pod_dir(spec.root.name)
-      puts pod_dir
-      if pod_dir.exist? # 本地 pod 不存在这个目录
-        file_accessor = Pod::Sandbox::FileAccessor.new(sandbox.pod_dir(spec.root.name), consumer)
-        frameworks += file_accessor.vendored_frameworks
-      end
-    end
-  end
-  frameworks.each do |framework|
-    destination = framework
-    root = module_workaround_root + framework.basename + 'Modules'
-    if root.exist?
-      Pod::UI.puts "Copying #{root} to #{destination}"
-      FileUtils.cp_r root, destination, :remove_destination => true
-    end
-  end
-end
+#def generate_module (installer)
+#  sandbox_root = Pathname(installer.sandbox.root)
+#  sandbox = Pod::Sandbox.new(sandbox_root)
+#  module_workaround_root = sandbox_root.parent + 'PodsModuleWorkaround'
+#  puts module_workaround_root
+#  frameworks = []
+#
+#  /Users/liming/Desktop/TCJPushExtension/Example/Pods/TCJPushExtension
+#
+#  installer.pod_targets.each do |umbrella|
+#    umbrella.specs.each do |spec|
+#      consumer = spec.consumer(umbrella.platform.name)
+#      pod_dir = sandbox.pod_dir(spec.root.name)
+#      puts pod_dir
+#      if pod_dir.exist? # 本地 pod 不存在这个目录
+#        file_accessor = Pod::Sandbox::FileAccessor.new(sandbox.pod_dir(spec.root.name), consumer)
+#        frameworks += file_accessor.vendored_frameworks
+#      end
+#    end
+#  end
+#  frameworks.each do |framework|
+#    destination = framework
+#    root = module_workaround_root + framework.basename + 'Modules'
+#    if root.exist?
+#      Pod::UI.puts "Copying #{root} to #{destination}"
+#      FileUtils.cp_r root, destination, :remove_destination => true
+#    end
+#  end
+#end
