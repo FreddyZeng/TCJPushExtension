@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TCJPushExtension'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TCJPushExtension.'
+  s.summary          = 'JPushExtension wrap'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,22 +21,29 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/freddyzeng/TCJPushExtension'
+  s.homepage         = 'http://code.addcn.com/10694/TCJPushExtension'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'freddyzeng' => 'fanrong@addcn.com' }
-  s.source           = { :git => 'https://github.com/freddyzeng/TCJPushExtension.git', :tag => s.version.to_s }
+  s.source           = { :git => 'http://code.addcn.com/10694/TCJPushExtension.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
-
+  s.ios.deployment_target = '10.0'
+  s.swift_version = "4.2"
+  s.requires_arc = true
+  s.static_framework = true
   s.source_files = 'TCJPushExtension/Classes/**/*'
+  s.vendored_libraries = 'TCJPushExtension/Classes/jpush-extension-ios-1.1.2.a'
+  s.weak_frameworks = 'UserNotifications'
+  s.libraries = 'z', 'resolv'
+
   
   # s.resource_bundles = {
   #   'TCJPushExtension' => ['TCJPushExtension/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'CFNetwork', 'CoreFoundation', 'CoreTelephony', 'SystemConfiguration', 'CoreGraphics', 'Foundation', 'Security'
+
   # s.dependency 'AFNetworking', '~> 2.3'
 end

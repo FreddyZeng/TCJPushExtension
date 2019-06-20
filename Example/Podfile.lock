@@ -1,0 +1,16 @@
+PODS:
+  - TCJPushExtension (0.1.0)
+
+DEPENDENCIES:
+  - TCJPushExtension (from `../`)
+
+EXTERNAL SOURCES:
+  TCJPushExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TCJPushExtension: c777266935130631b65c7f2cc6fe28e3d68b13f4
+
+PODFILE CHECKSUM: 9f2bc78bce1e6d449df14e7d6e2d41a8b4978899
+
+COCOAPODS: 1.7.2

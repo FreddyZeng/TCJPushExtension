@@ -1,0 +1,45 @@
+{
+  "name": "TCJPushExtension",
+  "version": "0.1.0",
+  "summary": "JPushExtension wrap",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/freddyzeng/TCJPushExtension",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "freddyzeng": "fanrong@addcn.com"
+  },
+  "source": {
+    "git": "https://github.com/freddyzeng/TCJPushExtension.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "swift_versions": "4.2",
+  "requires_arc": true,
+  "static_framework": true,
+  "pod_target_xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "${PODS_CONFIGURATION_BUILD_DIR}/JPush"
+  },
+  "source_files": "TCJPushExtension/Classes/**/*",
+  "vendored_libraries": "JPushExtension/Classes/jpush-extension-ios-1.1.2.a",
+  "weak_frameworks": "UserNotifications",
+  "libraries": [
+    "z",
+    "resolv"
+  ],
+  "frameworks": [
+    "UIKit",
+    "CFNetwork",
+    "CoreFoundation",
+    "CoreTelephony",
+    "SystemConfiguration",
+    "CoreGraphics",
+    "Foundation",
+    "Security"
+  ],
+  "swift_version": "4.2"
+}
