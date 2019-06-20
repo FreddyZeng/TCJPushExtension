@@ -45,7 +45,7 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'CFNetwork', 'CoreFoundation', 'CoreTelephony', 'SystemConfiguration', 'CoreGraphics', 'Foundation', 'Security'
 
-   s.dependency 'JPushService'
+   s.dependency 'JPushExtension'
 
   s.prepare_command = "touch aaaaaaaa"
 end
