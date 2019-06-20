@@ -35,6 +35,7 @@ TODO: Add long description of the pod here.
   s.vendored_libraries = '*.a'
   s.weak_frameworks = 'UserNotifications'
   s.libraries = 'z', 'resolv'
+  s.static_framework = true
 
   # s.resource_bundles = {
   #   'TCJPushExtension' => ['TCJPushExtension/Assets/*.png']
