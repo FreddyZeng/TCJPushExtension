@@ -25,13 +25,13 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'freddyzeng' => 'fanrong@addcn.com' }
-  s.source           = { :http => 'https://code.addcn.com/10694/TCJPushExtension/raw/master/JPush-iOS-1.1.2.zip'}
+  s.source           = { :http => 'https://sdkfiledl.jiguang.cn/cocoapods/jpushExtension/JPush-iOS-1.1.2.zip'}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
   s.swift_version = "4.2"
   s.requires_arc = true
-  s.source_files = '*.{h,m,modulemap}'
+  s.source_files = '*.h'
   s.vendored_libraries = '*.a'
   s.weak_frameworks = 'UserNotifications'
   s.libraries = 'z', 'resolv'
