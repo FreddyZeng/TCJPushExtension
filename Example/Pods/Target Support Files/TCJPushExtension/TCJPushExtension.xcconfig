@@ -1,6 +1,5 @@
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/TCJPushExtension
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/TCJPushExtension" "${PODS_ROOT}/Headers/Public"
 LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/TCJPushExtension"
 OTHER_LDFLAGS = $(inherited) -l"jpush-extension-ios-1.1.2" -l"resolv" -l"z" -framework "CFNetwork" -framework "CoreFoundation" -framework "CoreGraphics" -framework "CoreTelephony" -framework "Foundation" -framework "Security" -framework "SystemConfiguration" -framework "UIKit" -weak_framework "UserNotifications"
 PODS_BUILD_DIR = ${BUILD_DIR}

@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
   s.swift_version = "4.2"
   s.requires_arc = true
-  s.source_files = '*.modulemap'
+  s.source_files = '*.h'
   s.vendored_libraries = '*.a'
   s.weak_frameworks = 'UserNotifications'
   s.libraries = 'z', 'resolv'
@@ -46,16 +46,5 @@ TODO: Add long description of the pod here.
 
   # s.dependency 'AFNetworking', '~> 2.3'
 
-  s.prepare_command     = <<-EOF
-  mkdir TCJPushExtension
-  touch TCJPushExtension/module.modulemap
-  cat <<-EOF > TCJPushExtension/module.modulemap
-  module JPushNotificationExtensionService [system] {
-      header "JPushNotificationExtensionService.h"
-      export *
-      link "z"
-      link "resolv"
-  }
-  \EOF
-  EOF
+  s.prepare_command     = "echo aaaaaaaaaaa"
 end

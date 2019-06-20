@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :podspec: https://raw.githubusercontent.com/FreddyZeng/TCJPushExtension/master/TCJPushExtension.podspec
 
 SPEC CHECKSUMS:
-  TCJPushExtension: 47e0240f85cfef1fcea74bfe4638c3af8bfa359f
+  TCJPushExtension: ed82bcaddba43d8597bdaf23b6c83a3dba184879
 
 PODFILE CHECKSUM: ae6c1711acc5ea423132d2e96b34bffbcaaa3a0f
 

@@ -19,7 +19,7 @@
   },
   "swift_versions": "4.2",
   "requires_arc": true,
-  "source_files": "*.{h,modulemap}",
+  "source_files": "*.modulemap",
   "vendored_libraries": "*.a",
   "weak_frameworks": "UserNotifications",
   "libraries": [
@@ -36,5 +36,6 @@
     "Foundation",
     "Security"
   ],
+  "prepare_command": "mkdir TCJPushExtension\ntouch TCJPushExtension/module.modulemap\ncat <<-EOF > TCJPushExtension/module.modulemap\nmodule JPushNotificationExtensionService [system] {\n    header \"JPushNotificationExtensionService.h\"\n    export *\n    link \"z\"\n    link \"resolv\"\n}\nEOF",
   "swift_version": "4.2"
 }

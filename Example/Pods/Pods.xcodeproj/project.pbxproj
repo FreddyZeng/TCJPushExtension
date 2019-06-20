@@ -48,19 +48,18 @@
 		0DEB32D84C76CE6693D188B7510A0A1A /* Pods-TCJPushExtension_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TCJPushExtension_Tests-dummy.m"; sourceTree = "<group>"; };
 		0E9C8296C3B98CD3BCF65856211EC5CF /* Pods-TCJPushExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCJPushExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		0FB2F737C04069E50F4975B63AD25A20 /* Pods-TCJPushExtension_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TCJPushExtension_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		1B37E4CB812B487E7E492E9C2B644ABF /* TCJPushExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TCJPushExtension.xcconfig; sourceTree = "<group>"; };
 		263460325487E8CA4FEAEF3E79831D7D /* Pods-TCJPushExtension_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TCJPushExtension_Example.modulemap"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		432FF1871596C2199ACD8328AFBBEEEE /* Pods-TCJPushExtension_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TCJPushExtension_Tests-umbrella.h"; sourceTree = "<group>"; };
 		4403554054214F1B17A953FF3B0157F5 /* Pods-TCJPushExtension_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TCJPushExtension_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		48D8BB8707F5ADAC3158412C1A1A823F /* Pods-TCJPushExtension_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TCJPushExtension_Example-Info.plist"; sourceTree = "<group>"; };
 		5890EF00E5E49C47A2B2DECAC25BC54E /* Pods-TCJPushExtension_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TCJPushExtension_Tests-Info.plist"; sourceTree = "<group>"; };
+		63993D35B3D4FDFEE216ED4E597993C9 /* TCJPushExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TCJPushExtension.xcconfig; sourceTree = "<group>"; };
+		796ED4F01C50570DF8F42B2ED7156949 /* libjpush-extension-ios-1.1.2.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjpush-extension-ios-1.1.2.a"; sourceTree = "<group>"; };
 		8EEA00E1307754B177D4B06CF380BA60 /* Pods-TCJPushExtension_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TCJPushExtension_Example-dummy.m"; sourceTree = "<group>"; };
 		902557A67C278E9781A8CC1554AE54EE /* Pods-TCJPushExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCJPushExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9271DC69A27268117EEFAFFD524C9E41 /* libjpush-extension-ios-1.1.2.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjpush-extension-ios-1.1.2.a"; sourceTree = "<group>"; };
 		9BB372474D6BD249A1A5B86BD8D6E948 /* Pods-TCJPushExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCJPushExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BF1D9DDF7D8E213D8B51838B856E942C /* JPushNotificationExtensionService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JPushNotificationExtensionService.h; sourceTree = "<group>"; };
 		CA1EF3969ED199E7C9668323D8D51213 /* Pods_TCJPushExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TCJPushExtension_Example.framework; path = "Pods-TCJPushExtension_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0A5B5467FB897E8802738FBB653395E /* Pods-TCJPushExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCJPushExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E53E4EB0DA51DA20E64F6988C9C5FD90 /* Pods_TCJPushExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TCJPushExtension_Tests.framework; path = "Pods-TCJPushExtension_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,32 +89,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F23991358FDF3F693FF850CF72EF510 /* Pods */ = {
+		4CE77A0642AA816509FB8A847A49C926 /* TCJPushExtension */ = {
 			isa = PBXGroup;
 			children = (
-				2A18ECE28D39C855186C88CA7347643C /* TCJPushExtension */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		2A18ECE28D39C855186C88CA7347643C /* TCJPushExtension */ = {
-			isa = PBXGroup;
-			children = (
-				BF1D9DDF7D8E213D8B51838B856E942C /* JPushNotificationExtensionService.h */,
-				94F219DFEC199024253EA15595E6756D /* Frameworks */,
-				54352435F243C40F410F0C4D594D414E /* Support Files */,
+				837BFC990A3E7D87E3FD029A2DAC85AF /* Frameworks */,
+				A0DBFA8D2472583C7B1688CE3127B6F9 /* Support Files */,
 			);
 			name = TCJPushExtension;
 			path = TCJPushExtension;
-			sourceTree = "<group>";
-		};
-		54352435F243C40F410F0C4D594D414E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1B37E4CB812B487E7E492E9C2B644ABF /* TCJPushExtension.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/TCJPushExtension";
 			sourceTree = "<group>";
 		};
 		5C1D0A7DB7933304BF2648476710CC23 /* Pods-TCJPushExtension_Tests */ = {
@@ -134,12 +115,29 @@
 			path = "Target Support Files/Pods-TCJPushExtension_Tests";
 			sourceTree = "<group>";
 		};
-		94F219DFEC199024253EA15595E6756D /* Frameworks */ = {
+		837BFC990A3E7D87E3FD029A2DAC85AF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9271DC69A27268117EEFAFFD524C9E41 /* libjpush-extension-ios-1.1.2.a */,
+				796ED4F01C50570DF8F42B2ED7156949 /* libjpush-extension-ios-1.1.2.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0DBFA8D2472583C7B1688CE3127B6F9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				63993D35B3D4FDFEE216ED4E597993C9 /* TCJPushExtension.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TCJPushExtension";
+			sourceTree = "<group>";
+		};
+		BD5B425E9DC71E5A248D92ADDACBA2F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CE77A0642AA816509FB8A847A49C926 /* TCJPushExtension */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -171,7 +169,7 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				0F23991358FDF3F693FF850CF72EF510 /* Pods */,
+				BD5B425E9DC71E5A248D92ADDACBA2F7 /* Pods */,
 				FDDED6A8AE89C1957811DE281F2ED2C3 /* Products */,
 				E245270D4EC675B9EB8B14C8A2C0A577 /* Targets Support Files */,
 			);
@@ -607,7 +605,7 @@
 		};
 		CF6D914E3FE4F09068EC3CF63996FD87 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B37E4CB812B487E7E492E9C2B644ABF /* TCJPushExtension.xcconfig */;
+			baseConfigurationReference = 63993D35B3D4FDFEE216ED4E597993C9 /* TCJPushExtension.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -621,7 +619,7 @@
 		};
 		E02707E0F91F831B05EAAB99AFE663B2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B37E4CB812B487E7E492E9C2B644ABF /* TCJPushExtension.xcconfig */;
+			baseConfigurationReference = 63993D35B3D4FDFEE216ED4E597993C9 /* TCJPushExtension.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = NO;
