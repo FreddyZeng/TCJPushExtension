@@ -2,15 +2,15 @@ PODS:
   - TCJPushExtension (0.1.1)
 
 DEPENDENCIES:
-  - TCJPushExtension (from `../`)
+  - TCJPushExtension (from `https://raw.githubusercontent.com/FreddyZeng/TCJPushExtension/master/TCJPushExtension.podspec`)
 
 EXTERNAL SOURCES:
   TCJPushExtension:
-    :path: "../"
+    :podspec: https://raw.githubusercontent.com/FreddyZeng/TCJPushExtension/master/TCJPushExtension.podspec
 
 SPEC CHECKSUMS:
-  TCJPushExtension: 7bb3476374a8f7f9ea4311b19236a522984dd461
+  TCJPushExtension: 47e0240f85cfef1fcea74bfe4638c3af8bfa359f
 
-PODFILE CHECKSUM: 9f2bc78bce1e6d449df14e7d6e2d41a8b4978899
+PODFILE CHECKSUM: ae6c1711acc5ea423132d2e96b34bffbcaaa3a0f
 
 COCOAPODS: 1.7.2

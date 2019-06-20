@@ -12,11 +12,13 @@
     "freddyzeng": "fanrong@addcn.com"
   },
   "source": {
-    "https": "https://sdkfiledl.jiguang.cn/cocoapods/jpushExtension/JPush-iOS-1.1.2.zip"
+    "http": "https://sdkfiledl.jiguang.cn/cocoapods/jpushExtension/JPush-iOS-1.1.2.zip"
   },
   "platforms": {
     "ios": "10.0"
   },
+  "swift_versions": "4.2",
+  "requires_arc": true,
   "source_files": "*.{h,modulemap}",
   "vendored_libraries": "*.a",
   "weak_frameworks": "UserNotifications",
@@ -33,5 +35,6 @@
     "CoreGraphics",
     "Foundation",
     "Security"
-  ]
+  ],
+  "swift_version": "4.2"
 }

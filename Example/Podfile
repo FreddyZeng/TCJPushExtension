@@ -1,10 +1,11 @@
 use_frameworks!
 
-platform :ios, '8.0'
+platform :ios, '10.0'
 
 target 'TCJPushExtension_Example' do
-  pod 'TCJPushExtension', :path => '../'
-
+  #pod 'TCJPushExtension', :path => '../'
+  pod 'TCJPushExtension', :podspec => 'https://raw.githubusercontent.com/FreddyZeng/TCJPushExtension/master/TCJPushExtension.podspec'
+  
   target 'TCJPushExtension_Tests' do
     inherit! :search_paths
 
