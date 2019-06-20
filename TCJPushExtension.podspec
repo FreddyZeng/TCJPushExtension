@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'freddyzeng' => 'fanrong@addcn.com' }
-  s.source           = { :http => 'https://code.addcn.com/10694/TCJPushExtension/blob/master/JPush-iOS-1.1.2.zip'}
+  s.source           = { :http => 'https://code.addcn.com/10694/TCJPushExtension/raw/master/JPush-iOS-1.1.2.zip'}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
