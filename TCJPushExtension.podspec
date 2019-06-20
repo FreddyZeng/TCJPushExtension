@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'freddyzeng' => 'fanrong@addcn.com' }
-  s.source           = { :http => 'https://github.com/FreddyZeng/TCJPushExtension/raw/master/JPush-iOS-1.1.2.zip'}
+  s.source           = { :git => 'http://code.addcn.com/10694/TCJPushExtension.git'}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
@@ -33,8 +33,8 @@ TODO: Add long description of the pod here.
   s.requires_arc = true
   s.source_files = 'TCJPushExtension/Classes/*.{h,m,swift,modulemap}'
   #s.vendored_libraries = '*.a'
-  s.weak_frameworks = 'UserNotifications'
-  s.libraries = 'z', 'resolv'
+  #s.weak_frameworks = 'UserNotifications'
+  #s.libraries = 'z', 'resolv'
   #s.xcconfig = { "LIBRARY_SEARCH_PATHS" => "\"$(PODS_ROOT)/TCJPushExtension/**\"" }
   s.static_framework = true
 
@@ -43,7 +43,7 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'UIKit', 'CFNetwork', 'CoreFoundation', 'CoreTelephony', 'SystemConfiguration', 'CoreGraphics', 'Foundation', 'Security'
+  #s.frameworks = 'UIKit', 'CFNetwork', 'CoreFoundation', 'CoreTelephony', 'SystemConfiguration', 'CoreGraphics', 'Foundation', 'Security'
 
    s.dependency 'JPushExtension'
 
