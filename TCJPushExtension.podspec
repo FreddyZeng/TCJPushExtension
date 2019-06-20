@@ -35,6 +35,7 @@ TODO: Add long description of the pod here.
   s.vendored_libraries = '*.a'
   s.weak_frameworks = 'UserNotifications'
   s.libraries = 'z', 'resolv'
+  s.xcconfig = { "LIBRARY_SEARCH_PATHS" => "\"$(PODS_ROOT)/TCJPushExtension/**\"" }
   s.static_framework = true
 
   # s.resource_bundles = {
