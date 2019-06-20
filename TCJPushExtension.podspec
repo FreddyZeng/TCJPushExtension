@@ -31,12 +31,11 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
   s.swift_version = "4.2"
   s.requires_arc = true
-  s.source_files = '*.h'
+  s.source_files = '*.{h,modulemap}'
   s.vendored_libraries = '*.a'
   s.weak_frameworks = 'UserNotifications'
   s.libraries = 'z', 'resolv'
 
-  
   # s.resource_bundles = {
   #   'TCJPushExtension' => ['TCJPushExtension/Assets/*.png']
   # }
@@ -45,6 +44,4 @@ TODO: Add long description of the pod here.
   s.frameworks = 'UIKit', 'CFNetwork', 'CoreFoundation', 'CoreTelephony', 'SystemConfiguration', 'CoreGraphics', 'Foundation', 'Security'
 
   # s.dependency 'AFNetworking', '~> 2.3'
-
-  s.prepare_command     = "echo aaaaaaaaaaa"
 end
