@@ -12,14 +12,14 @@
     "freddyzeng": "fanrong@addcn.com"
   },
   "source": {
-    "http": "https://sdkfiledl.jiguang.cn/cocoapods/jpushExtension/JPush-iOS-1.1.2.zip"
+    "http": "https://github.com/FreddyZeng/TCJPushExtension/raw/master/JPush-iOS-1.1.2.zip"
   },
   "platforms": {
     "ios": "10.0"
   },
   "swift_versions": "4.2",
   "requires_arc": true,
-  "source_files": "*.modulemap",
+  "source_files": "*.{h,modulemap}",
   "vendored_libraries": "*.a",
   "weak_frameworks": "UserNotifications",
   "libraries": [
@@ -36,6 +36,6 @@
     "Foundation",
     "Security"
   ],
-  "prepare_command": "mkdir TCJPushExtension\ntouch TCJPushExtension/module.modulemap\ncat <<-EOF > TCJPushExtension/module.modulemap\nmodule JPushNotificationExtensionService [system] {\n    header \"JPushNotificationExtensionService.h\"\n    export *\n    link \"z\"\n    link \"resolv\"\n}\nEOF",
+  "prepare_command": "echo aaaaaaaaaaa",
   "swift_version": "4.2"
 }
