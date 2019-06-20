@@ -12,8 +12,8 @@ end
 
 target 'Test' do
   #pod 'TCJPushExtension', :path => '../'
-  #pod 'TCJPushExtension', :podspec => 'https://raw.githubusercontent.com/FreddyZeng/TCJPushExtension/master/TCJPushExtension.podspec'
-  pod 'JPushExtension'
+  pod 'TCJPushExtension', :podspec => 'https://raw.githubusercontent.com/FreddyZeng/TCJPushExtension/master/TCJPushExtension.podspec'
+#  pod 'JPushExtension'
 end
 
 

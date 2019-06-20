@@ -1,0 +1,4 @@
+module JPushNotificationExtensionService [system] {
+    header "./../../JPushExtension/JPushNotificationExtensionService.h"
+    export *
+}

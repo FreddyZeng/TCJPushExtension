@@ -1,16 +1,29 @@
 PODS:
   - JPushExtension (1.1.2)
+  - TCJPushExtension (0.1.1):
+    - JPushExtension
 
 DEPENDENCIES:
   - JPushExtension
+  - TCJPushExtension (from `https://raw.githubusercontent.com/FreddyZeng/TCJPushExtension/master/TCJPushExtension.podspec`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - JPushExtension
 
+EXTERNAL SOURCES:
+  TCJPushExtension:
+    :podspec: https://raw.githubusercontent.com/FreddyZeng/TCJPushExtension/master/TCJPushExtension.podspec
+
+CHECKOUT OPTIONS:
+  TCJPushExtension:
+    :commit: 08dfd4a657e12ff831c04312f1b7db5618cc8a91
+    :git: http://code.addcn.com/10694/TCJPushExtension.git
+
 SPEC CHECKSUMS:
   JPushExtension: 030dddb49584cb1b80a20bb04294e5d3104de11c
+  TCJPushExtension: 5e3a822bb18ceaad7a3e66a4ab0fb8a891c2e242
 
-PODFILE CHECKSUM: 80eba72fb13cc65490d9678cc0ced206fd073199
+PODFILE CHECKSUM: f5c06fb81fcbd38e2f0e0c920261a09ec7555574
 
 COCOAPODS: 1.7.2
