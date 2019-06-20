@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import JPushNotificationExtensionService
+//import JPushNotificationExtensionService
 
 class AA: NSObject {
     override init() {

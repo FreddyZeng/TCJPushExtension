@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = JPushExtension;
+			productName = JPushExtension;
 		};
 /* End PBXAggregateTarget section */
 
@@ -113,12 +114,12 @@
 		4AB294C4183230E185D36B7F35FDAADD /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		4B49BFFB4CD561AD0BD1F84714E13285 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		54F4C435E67CFA689B3320AE86609E0A /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
-		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62857C70F9B9E793B5AD2588F7C66E5B /* Pods-Test-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Test-dummy.m"; sourceTree = "<group>"; };
 		6741FEE80294BF2E0A4BD0B2A8E578EA /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
 		68183DBFAA973C29C7DA7A88D24B7446 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		69E6DAE86328A99AC0AD98E1943A58B3 /* TCJPushExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TCJPushExtension-Info.plist"; sourceTree = "<group>"; };
-		6E9674311C9DC5180905474618BB10C8 /* Pods_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Test.framework; path = "Pods-Test.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E9674311C9DC5180905474618BB10C8 /* Pods_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77A8CA5FAF35416A08C0BA72908968B0 /* TCJPushExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TCJPushExtension-prefix.pch"; sourceTree = "<group>"; };
 		7CCAC75B84D43569743C4F5CF232485B /* Pods-Test.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Test.modulemap"; sourceTree = "<group>"; };
 		801D9293FA6CC579EE7C0B7EEDEB0023 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
@@ -129,7 +130,7 @@
 		95071BCDBC4F233450A5CBBE9B9BDCDC /* TCJPushExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TCJPushExtension-umbrella.h"; sourceTree = "<group>"; };
 		95ABB2A917EE26F7A131F89186DD4D6B /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
 		97416194D8722255E5384C2851809702 /* JPushNotificationExtensionService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JPushNotificationExtensionService.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E170A363CA1B0F78FE0A2660A652D21 /* Pods-Test-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Test-umbrella.h"; sourceTree = "<group>"; };
 		9ED468730B8AE41DDAC1C5859860A7E1 /* Pods-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test.release.xcconfig"; sourceTree = "<group>"; };
 		9F07EECB75ABE82EF99BEF2B1CB36BFC /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
@@ -142,14 +143,14 @@
 		BBCCD1CEC0C44EC9B7D7B48FA078A779 /* Pods-TCJPushExtension_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TCJPushExtension_Example-umbrella.h"; sourceTree = "<group>"; };
 		BFF193A59C8749EF55A84D7C07FB186C /* TCJPushExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TCJPushExtension.modulemap; sourceTree = "<group>"; };
 		C90248ADCBA9D0E56B2F17E70F371DB0 /* Pods-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test.debug.xcconfig"; sourceTree = "<group>"; };
-		CA1EF3969ED199E7C9668323D8D51213 /* Pods_TCJPushExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TCJPushExtension_Example.framework; path = "Pods-TCJPushExtension_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA1EF3969ED199E7C9668323D8D51213 /* Pods_TCJPushExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCJPushExtension_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6F336D5BDAB2579EEC12D725B91CE5 /* Pods-TCJPushExtension_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TCJPushExtension_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D0AE45583E6B1AF9864A43D3DD7B2906 /* Pods-TCJPushExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCJPushExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D87D4129992438E8A9319161BAE4E8A0 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		D98C8B7EC03577780D830488AE80E0CF /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
 		DAC40B37D18FFF969B85C3DE03A8F34A /* libjpush-extension-ios-1.1.2.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjpush-extension-ios-1.1.2.a"; sourceTree = "<group>"; };
 		E4AEA50A4979D5A25E51BEE785AD2098 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
-		E65AD7CDA075E8A866CE0171D34B5C58 /* TCJPushExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TCJPushExtension.framework; path = TCJPushExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E65AD7CDA075E8A866CE0171D34B5C58 /* TCJPushExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TCJPushExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC798223BF45FF8254EFF5B2C13AE098 /* AA.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AA.swift; path = TCJPushExtension/Classes/AA.swift; sourceTree = "<group>"; };
 		ED20912EBC5A71A1A92CC40DB225225F /* Pods-TCJPushExtension_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TCJPushExtension_Example.modulemap"; sourceTree = "<group>"; };
 		F43F146F75DE9E6310A0AB319959D1AD /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
@@ -215,7 +216,6 @@
 				876A5C6E3ECA71834C494C706A585E21 /* Validation.swift */,
 				4CD5F9BD464CFA7EE7501535E91512DF /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -248,7 +248,6 @@
 				30D6488E7C0B7EB086BCC4157DBBBB9F /* Frameworks */,
 				DA2FF69C8CDAC4C9D55B060AA338D5B7 /* Support Files */,
 			);
-			name = JPushExtension;
 			path = JPushExtension;
 			sourceTree = "<group>";
 		};
@@ -300,7 +299,6 @@
 				91E0DF71DD4E3E03C318C025F8E7F8D2 /* Module.modulemap */,
 				A5342E30878418F4A891B30B7464F7CC /* Support Files */,
 			);
-			name = TCJPushExtension;
 			path = TCJPushExtension;
 			sourceTree = "<group>";
 		};
@@ -738,6 +736,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -804,6 +803,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INCLUDE_PATHS = "\"/Users/liming/Desktop/TCJPushExtension/Example/Pods/TCJPushExtension/TCJPushExtension/Classes\"";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -836,6 +836,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INCLUDE_PATHS = "\"/Users/liming/Desktop/TCJPushExtension/Example/Pods/TCJPushExtension/TCJPushExtension/Classes\"";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -999,8 +1000,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -1033,6 +1033,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;

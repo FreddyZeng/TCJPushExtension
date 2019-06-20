@@ -23,7 +23,7 @@
 //
 
 import Foundation
-
+import JPushNotificationExtensionService
 /// `AFError` is the error type returned by Alamofire. It encompasses a few different types of errors, each with
 /// their own associated reasons.
 ///
