@@ -31,7 +31,6 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
   s.swift_version = "4.2"
   s.requires_arc = true
-  s.static_framework = true
   s.source_files = 'TCJPushExtension/Classes/**/*.{h,m,modulemap}'
   s.vendored_libraries = 'TCJPushExtension/Classes/jpush-extension-ios-1.1.2.a'
   s.weak_frameworks = 'UserNotifications'
