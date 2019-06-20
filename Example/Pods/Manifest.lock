@@ -1,5 +1,5 @@
 PODS:
-  - TCJPushExtension (0.1.0)
+  - TCJPushExtension (0.1.1)
 
 DEPENDENCIES:
   - TCJPushExtension (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TCJPushExtension: 10b5cb9b01d973d00ec9fcd0c99dedde0e565aed
+  TCJPushExtension: d9e251dd3caa3ea4085f88e9d023e51df4f169db
 
 PODFILE CHECKSUM: 9f2bc78bce1e6d449df14e7d6e2d41a8b4978899
 
