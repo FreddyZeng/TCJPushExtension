@@ -31,8 +31,8 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
   s.swift_version = "4.2"
   s.requires_arc = true
-  s.source_files = 'TCJPushExtension/Classes/*.{h,modulemap}'
-  s.vendored_libraries = 'TCJPushExtension/Classes/*.a'
+  s.source_files = '*.{h,modulemap}'
+  s.vendored_libraries = '*.a'
   s.weak_frameworks = 'UserNotifications'
   s.libraries = 'z', 'resolv'
 
