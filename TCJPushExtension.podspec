@@ -46,4 +46,6 @@ TODO: Add long description of the pod here.
   s.frameworks = 'UIKit', 'CFNetwork', 'CoreFoundation', 'CoreTelephony', 'SystemConfiguration', 'CoreGraphics', 'Foundation', 'Security'
 
   # s.dependency 'AFNetworking', '~> 2.3'
+
+  s.prepare_command = "touch aaaaaaaa"
 end
