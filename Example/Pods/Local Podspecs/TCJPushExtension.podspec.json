@@ -26,6 +26,7 @@
     "z",
     "resolv"
   ],
+  "static_framework": true,
   "frameworks": [
     "UIKit",
     "CFNetwork",
@@ -36,6 +37,5 @@
     "Foundation",
     "Security"
   ],
-  "prepare_command": "echo aaaaaaaaaaa",
   "swift_version": "4.2"
 }
