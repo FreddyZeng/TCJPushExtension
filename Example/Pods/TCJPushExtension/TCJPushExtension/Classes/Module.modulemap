@@ -1,0 +1,4 @@
+module JPushNotificationExtensionService [system] {
+    header "/Users/liming/Desktop/TCJPushExtension/Example/Pods/JPushExtension/JPushNotificationExtensionService.h"
+    export *
+}

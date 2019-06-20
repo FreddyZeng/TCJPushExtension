@@ -1,4 +1,4 @@
-module TCJPushExtension {
+framework module TCJPushExtension {
   umbrella header "TCJPushExtension-umbrella.h"
 
   export *

@@ -1,11 +1,11 @@
-#use_frameworks!
+use_frameworks!
 
 platform :ios, '10.0'
 
 target 'TCJPushExtension_Example' do
   #pod 'TCJPushExtension', :path => '../'
   #pod 'TCJPushExtension', :podspec => 'https://raw.githubusercontent.com/FreddyZeng/TCJPushExtension/master/TCJPushExtension.podspec'
-  pod 'JPushExtension'
+  #pod 'JPushExtension'
 end
 
 
@@ -13,6 +13,7 @@ end
 target 'Test' do
   #pod 'TCJPushExtension', :path => '../'
   pod 'TCJPushExtension', :podspec => 'https://raw.githubusercontent.com/FreddyZeng/TCJPushExtension/master/TCJPushExtension.podspec'
+  pod 'Alamofire', '4.7.2'
 #  pod 'JPushExtension'
 end
 

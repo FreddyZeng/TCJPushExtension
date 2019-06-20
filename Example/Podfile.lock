@@ -1,14 +1,16 @@
 PODS:
+  - Alamofire (4.7.2)
   - JPushExtension (1.1.2)
   - TCJPushExtension (0.1.1):
     - JPushExtension
 
 DEPENDENCIES:
-  - JPushExtension
+  - Alamofire (= 4.7.2)
   - TCJPushExtension (from `https://raw.githubusercontent.com/FreddyZeng/TCJPushExtension/master/TCJPushExtension.podspec`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Alamofire
     - JPushExtension
 
 EXTERNAL SOURCES:
@@ -21,9 +23,10 @@ CHECKOUT OPTIONS:
     :git: http://code.addcn.com/10694/TCJPushExtension.git
 
 SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
   JPushExtension: 030dddb49584cb1b80a20bb04294e5d3104de11c
   TCJPushExtension: 5e3a822bb18ceaad7a3e66a4ab0fb8a891c2e242
 
-PODFILE CHECKSUM: f5c06fb81fcbd38e2f0e0c920261a09ec7555574
+PODFILE CHECKSUM: e4b39a6a4a3afa68ec648d968073686f17013a36
 
 COCOAPODS: 1.7.2
