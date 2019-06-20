@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TCJPushExtension: c777266935130631b65c7f2cc6fe28e3d68b13f4
+  TCJPushExtension: 10b5cb9b01d973d00ec9fcd0c99dedde0e565aed
 
 PODFILE CHECKSUM: 9f2bc78bce1e6d449df14e7d6e2d41a8b4978899
 

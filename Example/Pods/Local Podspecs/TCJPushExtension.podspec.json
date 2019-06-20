@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "JPushExtension wrap",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/freddyzeng/TCJPushExtension",
+  "homepage": "http://code.addcn.com/10694/TCJPushExtension",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,20 +12,15 @@
     "freddyzeng": "fanrong@addcn.com"
   },
   "source": {
-    "git": "https://github.com/freddyzeng/TCJPushExtension.git",
-    "tag": "0.1.0"
+    "http": "https://sdkfiledl.jiguang.cn/cocoapods/jpushExtension/JPush-iOS-1.1.2.zip"
   },
   "platforms": {
     "ios": "10.0"
   },
   "swift_versions": "4.2",
   "requires_arc": true,
-  "static_framework": true,
-  "pod_target_xcconfig": {
-    "FRAMEWORK_SEARCH_PATHS": "${PODS_CONFIGURATION_BUILD_DIR}/JPush"
-  },
-  "source_files": "TCJPushExtension/Classes/**/*",
-  "vendored_libraries": "JPushExtension/Classes/jpush-extension-ios-1.1.2.a",
+  "source_files": "*.h",
+  "vendored_libraries": "*.a",
   "weak_frameworks": "UserNotifications",
   "libraries": [
     "z",
