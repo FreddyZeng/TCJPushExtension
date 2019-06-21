@@ -13,7 +13,7 @@ end
 target 'Test' do
   #pod 'TCJPushExtension', :path => '../'
   pod 'JPushExtension'
-  pod 'TCJPushExtension', :podspec => 'https://raw.githubusercontent.com/FreddyZeng/TCJPushExtension/master/TCJPushExtension.podspec'
+  #pod 'TCJPushExtension', :podspec => 'https://raw.githubusercontent.com/FreddyZeng/TCJPushExtension/master/TCJPushExtension.podspec'
   pod 'Alamofire', '4.7.2'
 end
 

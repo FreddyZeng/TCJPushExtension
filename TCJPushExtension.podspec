@@ -32,18 +32,4 @@ TODO: Add long description of the pod here.
   s.swift_version = "4.2"
   s.requires_arc = true
   s.source_files = 'TCJPushExtension/Classes/*.{h,m,swift,modulemap}'
-  #s.vendored_libraries = '*.a'
-  #s.weak_frameworks = 'UserNotifications'
-  #s.libraries = 'z', 'resolv'
-  #s.xcconfig = { "LIBRARY_SEARCH_PATHS" => "\"$(PODS_ROOT)/TCJPushExtension/**\"" }
-  #s.static_framework = true
-
-  # s.resource_bundles = {
-  #   'TCJPushExtension' => ['TCJPushExtension/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  #s.frameworks = 'UIKit', 'CFNetwork', 'CoreFoundation', 'CoreTelephony', 'SystemConfiguration', 'CoreGraphics', 'Foundation', 'Security'
-
-   #s.dependency 'JPushExtension'
 end
